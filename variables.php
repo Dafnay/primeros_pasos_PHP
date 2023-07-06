@@ -143,6 +143,11 @@ echo "<br>";
 echo "<br>";
 echo "<br>";
 // Reemplaza la palabra 'Gato' de tu variable original a 'Michi' e imprime en pantalla.
+$greeting = 'hola gato';
+$cat = 'gato';
+$michi = 'michi';
+$newGreeting = str_replace($cat, $michi, $greeting);
+var_dump($newGreeting);
 // Declara dos variables y dale un valor de tipo integer e imprime ambas en pantalla
 $a = 5;
 $b = 7;
@@ -192,8 +197,7 @@ function esPar($number) {
     }
 }
 
-$number = 42;
-esPar($number);
+esPar(31);
 
 ?>
 
